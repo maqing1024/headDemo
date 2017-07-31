@@ -37,7 +37,7 @@
 - (void)setInforListCellSubViews {
     UIImageView *inforImageView = [[UIImageView alloc]init];
     inforImageView.frame = CGRectMake(15, 10, 100, 80);
-    inforImageView.image = [UIImage imageNamed:@"1"];
+    inforImageView.image = [UIImage imageNamed:@"1.jpeg"];
     [self.contentView addSubview:inforImageView];
     self.inforImageView = inforImageView;
     

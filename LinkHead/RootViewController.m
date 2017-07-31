@@ -114,7 +114,7 @@ static CGFloat const headViewHeight = 300;
 }
 #pragma mark 绘制头部轮播图
 - (void)setLunBoTuUI  {
-    NSArray *picArray = @[@"1",@"2",@"3"];
+    NSArray *picArray = @[@"1.jpeg",@"2.png",@"3.jpeg"];
     NSMutableArray *titleArray = [[NSMutableArray alloc]initWithObjects:@"风景",@"游戏",@"美女", nil];
     
 //    _headScrollView = [KNBannerView bannerViewWithNetWorkImagesArr:picArray frame:CGRectMake(0,0,self.view.width, 180)];//网络请求图片初始化方式
