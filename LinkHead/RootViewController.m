@@ -116,7 +116,9 @@ static CGFloat const headViewHeight = 300;
 - (void)setLunBoTuUI  {
     NSArray *picArray = @[@"1",@"2",@"3"];
     NSMutableArray *titleArray = [[NSMutableArray alloc]initWithObjects:@"风景",@"游戏",@"美女", nil];
-//    _headScrollView = [KNBannerView bannerViewWithNetWorkImagesArr:picArray frame:CGRectMake(0,0,self.view.width, 180)];
+    
+//    _headScrollView = [KNBannerView bannerViewWithNetWorkImagesArr:picArray frame:CGRectMake(0,0,self.view.width, 180)];//网络请求图片初始化方式
+    
     _headScrollView = [KNBannerView bannerViewWithLocationImagesArr:picArray frame:CGRectMake(0,0,self.view.width, 180)];
     _headScrollView.delegate = self;
     _headScrollView.placeHolder = @"3";
