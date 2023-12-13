@@ -1,4 +1,4 @@
 # headDemo
-这是一个头部视图联动demo
+导航栏界面实现效果
 
 ![img](https://github.com/maqing123875/headDemo/blob/master/pic/headLinkDemo.gif)
